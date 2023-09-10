@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useState } from "react";
 
-function App() {
+// import NameCard from "./components/NameCard";
+// import Counter from "./components/Counter";
+// import TodoList from "./components/TodoList";
+import Hobbies from "./components/Hobbies";
+import "./App.css";
+
+const App = () => {
+  // const [isVisibleCounter, setIsVisibleCounter] = useState(true);
+  // const handleVisibleCounter = () => {
+  //   setIsVisibleCounter(!isVisibleCounter);
+  // };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter isVisibleCounter={isVisibleCounter} />
+      <Counter isVisibleCounter={isVisibleCounter} />
+      <button className="counter-visible-btn" onClick={handleVisibleCounter}>
+        {isVisibleCounter ? "Hide Counter" : "Open Counter"}
+      </button> */}
+
+      {/* <div className="namecard-container">
+        <NameCard name="Alice" age="20" gender="Female" />
+        <NameCard name="Bob" age="19" gender="Male" />
+        <NameCard name="Hieu" age="18" gender="Male" />
+      </div> */}
+
+      {/* <TodoList /> */}
+
+      <Hobbies />
     </div>
   );
-}
+};
 
 export default App;
