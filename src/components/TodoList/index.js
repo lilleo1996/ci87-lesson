@@ -11,11 +11,6 @@ const TodoList = () => {
     });
   };
 
-  //   const todosLi = [];
-  //   todos.forEach((item) => {
-  //     todosLi.push(<li>{item}</li>); // todosLi = [<li>{todos[0]}</li>, <li>{todos[1]}</li>]
-  //   });
-
   //   const renderTodo = (item) => {
   //     return (
   //       <li className="todo-list-item">
