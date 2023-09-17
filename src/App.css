@@ -1,4 +1,5 @@
 .App {
+  min-height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -6,12 +7,24 @@
   justify-content: center;
 }
 
-.counter-visible-btn {
-  background: linear-gradient(to right bottom, #6a5af9, #f62682);
-  border: 2px solid #f62682;
-  border-radius: 3px;
-  color: white;
-  font-size: large;
-  font-weight: bold;
+.header {
+  min-width: 100vw;
+  min-height: 70px;
+  position: absolute;
+  top: 8px;
+  background-color: #EAECF0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.footer {
+  position: absolute;
+  bottom: 8px;
+  min-width: 100vw;
+  background-color: #EAECF0;
+  color: #404757;
+}
+
+
 
