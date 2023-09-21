@@ -29,6 +29,11 @@ const Header = () => {
             Profile
           </NavLink>
         </li>
+        <li>
+          <NavLink className={linkClassName} to="/pokemon">
+            Pokemon
+          </NavLink>
+        </li>
       </ul>
     </div>
   );

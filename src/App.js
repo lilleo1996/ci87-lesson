@@ -10,6 +10,7 @@ import Profile from "./pages/Profile";
 import AboutMe from "./pages/AboutMe";
 import Courses from "./pages/Courses";
 import ProductDetail from "./pages/ProductDetail";
+import Pokemon from "./pages/Pokemon";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="" element={<AboutMe />} />
           <Route path="courses" element={<Courses />} />
         </Route>
+        <Route path="/pokemon" element={<Pokemon />}></Route>
         <Route path="*" element={<h1>Page not found</h1>} />
       </Routes>
       <Footer />
